@@ -12,8 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudentApp"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".ViewActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.StudentApp" />
+        <activity
+            android:name=".ImageActivity"
+            android:exported="false"
+            android:label="@string/title_activity_image"
+            android:theme="@style/Theme.StudentApp" />
         <activity
             android:name=".SecondActivity"
             android:exported="false"
